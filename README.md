@@ -29,7 +29,7 @@ The system uses the **CIC-IDS 2017** dataset, which contains various types of ne
 - SSH-Patator
 - Web attacks
 
-Dataset location: `/home/madhu/yuks/MFEDK_IDS/data/CIC-IDS 2017/`
+Dataset location:data/CIC-IDS_2017/
 
 ## Project Structure
 
@@ -59,9 +59,10 @@ MFEDK_IDS/
 
 ### Setup
 
-1. Clone or navigate to the project directory:
+1. Clone the repository:
 ```bash
-cd /home/madhu/yuks/MFEDK_IDS
+git clone https://github.com/indukoyyagura/IDS-Intrusion-Detection-System.git
+cd IDS-Intrusion-Detection-System
 ```
 
 2. Install required packages:
@@ -270,7 +271,7 @@ BATCH_SIZE = 64  # or 32
 ### File Not Found Error
 Ensure the dataset is located at:
 ```
-/home/madhu/yuks/MFEDK_IDS/data/CIC-IDS 2017/
+data/CIC-IDS_2017/
 ```
 
 Or update `DATA_DIR` in `config.py`.
